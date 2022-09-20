@@ -6,6 +6,9 @@
     "application-e2e": "apps/application-e2e",
     "boarding": "apps/boarding",
     "boarding-domain": "libs/boarding/domain",
-    "boarding-e2e": "apps/boarding-e2e"
+    "boarding-e2e": "apps/boarding-e2e",
+    "booking": "apps/booking",
+    "booking-domain": "libs/booking/domain",
+    "booking-e2e": "apps/booking-e2e"
   }
 }

@@ -15,7 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@ddd-architecture/boarding/domain": ["libs/boarding/domain/src/index.ts"]
+      "@ddd-architecture/boarding/domain": [
+        "libs/boarding/domain/src/index.ts"
+      ],
+      "@ddd-architecture/booking/domain": ["libs/booking/domain/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
