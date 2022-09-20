@@ -27,6 +27,9 @@
       ],
       "@ddd-architecture/shared/ui-components": [
         "libs/shared/ui-components/src/index.ts"
+      ],
+      "@ddd-architecture/shared/util-core": [
+        "libs/shared/util-core/src/index.ts"
       ]
     }
   },

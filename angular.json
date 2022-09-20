@@ -12,6 +12,7 @@
     "booking-domain": "libs/booking/domain",
     "booking-e2e": "apps/booking-e2e",
     "booking-feature-manage-bookings": "libs/booking/feature-manage-bookings",
-    "shared-ui-components": "libs/shared/ui-components"
+    "shared-ui-components": "libs/shared/ui-components",
+    "shared-util-core": "libs/shared/util-core"
   }
 }
