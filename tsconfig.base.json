@@ -21,7 +21,10 @@
       "@ddd-architecture/boarding/feature-manage-boardings": [
         "libs/boarding/feature-manage-boardings/src/index.ts"
       ],
-      "@ddd-architecture/booking/domain": ["libs/booking/domain/src/index.ts"]
+      "@ddd-architecture/booking/domain": ["libs/booking/domain/src/index.ts"],
+      "@ddd-architecture/booking/feature-manage-bookings": [
+        "libs/booking/feature-manage-bookings/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]
