@@ -1,0 +1,9 @@
+<h1>boarding-manage-boardings</h1>
+
+<table class="table">
+  <tr *ngFor="let boarding of boardingList$ | async">
+    <td>{{ boarding.id }}</td>
+    <td>{{ boarding.name }}</td>
+    <td>{{ boarding.description }}</td>
+  </tr>
+</table>

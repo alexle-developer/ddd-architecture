@@ -7,6 +7,7 @@
     "boarding": "apps/boarding",
     "boarding-domain": "libs/boarding/domain",
     "boarding-e2e": "apps/boarding-e2e",
+    "boarding-feature-manage-boardings": "libs/boarding/feature-manage-boardings",
     "booking": "apps/booking",
     "booking-domain": "libs/booking/domain",
     "booking-e2e": "apps/booking-e2e"

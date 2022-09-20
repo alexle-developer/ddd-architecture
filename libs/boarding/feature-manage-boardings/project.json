@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "library",
+  "sourceRoot": "libs/boarding/feature-manage-boardings/src",
+  "prefix": "boarding",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/boarding/feature-manage-boardings"],
+      "options": {
+        "jestConfig": "libs/boarding/feature-manage-boardings/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/boarding/feature-manage-boardings/**/*.ts",
+          "libs/boarding/feature-manage-boardings/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": ["domain:boarding", "type:feature"]
+}

@@ -18,6 +18,9 @@
       "@ddd-architecture/boarding/domain": [
         "libs/boarding/domain/src/index.ts"
       ],
+      "@ddd-architecture/boarding/feature-manage-boardings": [
+        "libs/boarding/feature-manage-boardings/src/index.ts"
+      ],
       "@ddd-architecture/booking/domain": ["libs/booking/domain/src/index.ts"]
     }
   },
