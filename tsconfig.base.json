@@ -24,6 +24,9 @@
       "@ddd-architecture/booking/domain": ["libs/booking/domain/src/index.ts"],
       "@ddd-architecture/booking/feature-manage-bookings": [
         "libs/booking/feature-manage-bookings/src/index.ts"
+      ],
+      "@ddd-architecture/shared/ui-components": [
+        "libs/shared/ui-components/src/index.ts"
       ]
     }
   },
