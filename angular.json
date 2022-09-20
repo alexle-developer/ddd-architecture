@@ -3,6 +3,9 @@
   "version": 2,
   "projects": {
     "application": "apps/application",
-    "application-e2e": "apps/application-e2e"
+    "application-e2e": "apps/application-e2e",
+    "boarding": "apps/boarding",
+    "boarding-domain": "libs/boarding/domain",
+    "boarding-e2e": "apps/boarding-e2e"
   }
 }
